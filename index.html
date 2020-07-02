@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a class="nav-link" href='#'>View high Scores</a>
+        <div id="timer"></div>
+    </nav>
+
+    <section class="container">
+        <h1>Check your knowledge!</h1>
+        <main id="main">
+            <div id="Start">
+            <button class="start-button" id="start">Start</button>
+            </div>
+        
+            
+    
+            <section class="quiz" style="display: none;">
+
+            <row>
+                 <card class="questions"></card>
+            </row>
+            </section>
+        
+            <section class="hide" id="results"">
+            <p id="final-message"></p>
+            <input type="text" id="score-name" placeholder="your Name">
+            <button type="submit" id="submit-button">Add to High scores</button>
+            </section>
+        <section class="" id="high-scores"></section>
+        </main>
+    </section>
+ 
+<script src="script.js"></script>
+ 
+</body>
+</html>
