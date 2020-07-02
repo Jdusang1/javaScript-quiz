@@ -1,5 +1,4 @@
 var startQuiz = document.querySelector("#start");
-// var submitScore = document.querySelector("#submit-button");
 var timeEl= document.querySelector("#timer")
 
 
@@ -52,22 +51,25 @@ function askQuestion() {
         ansBtn.addEventListener("click", checkAnswer);
     }
 
-}
-
+};
 function checkAnswer (event) {
     console.log("check");
-    if (questions[j].correct !== event.target.textContent){
+    if (questions[j].correctAnswer === event.target.textContent){
         console.log("correct");
     } else(
         alert("correct")
     )
     if (j < questions.length) {
         j++;
-        renderQuestions()
+        askQuestion();
+
+        
+       
+        
     }
     else endGame();
 
-}
+};
 
 
 function setTime() {
@@ -82,14 +84,6 @@ function setTime() {
             }
     }, 1000);
 };
-
-
-
-
- 
-
-    
-
 
 start.addEventListener("click", setTime);
 start.addEventListener("click", askQuestion);

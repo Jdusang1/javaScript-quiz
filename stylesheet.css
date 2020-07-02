@@ -1,0 +1,23 @@
+#timer {
+    align-content: center;
+
+}
+
+#score {
+    align-content: center;
+}
+
+/* function checkAnswer (event) {
+    console.log("check");
+    if (questions[j].correct !== event.target.textContent){
+        console.log("correct");
+    } else(
+        alert("correct")
+    )
+    if (j < questions.length) {
+        j++;
+        renderQuestions()
+    }
+    else endGame();
+
+} */

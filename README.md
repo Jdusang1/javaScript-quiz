@@ -1,1 +1,3 @@
-# javaScript-quiz
+The idea behind this homework was to build a basic javaScript quiz 
+that runs a timer and keeps a score based on time. Miss answering questions would deduct time and ultimately decide your score and also store a high score. I was unable to wire everything up correctly. My main focus was just to try and get my questions answers posted to the page and run through a for loop through click events. I somewhat got this to work but not quite. I was also able to get the timer wired up but unable to alter the actual time by correct or incorrect answers.
+This assignment was quite the struggle as i have still not grasped javascript. Not proud of the submit but i am proud of what i have learned so far.
